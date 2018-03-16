@@ -1,0 +1,97 @@
+body {
+	background-image: url("https://www.armytimes.com/resizer/Midxz6cpTO3mz-yA82pg_xa38EY=/1200x0/filters:quality(100)/arc-anglerfish-arc2-prod-mco.s3.amazonaws.com/public/RGF26MAZRZBJRKLURGXJBIPTVQ.jpg");
+	color: white;
+	text-align: center;
+	font-family: roboto;
+}
+
+#container {
+	width: 800px;
+	margin: auto;
+	border-radius: 10px;
+	height: 45px;
+	text-align: center;
+	border-style: solid;
+	border-color: #F0F8FF;
+
+
+}
+
+
+nav ul {
+	list-style: none;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li:hover {
+	background-color: #708090;
+	list-style: none;
+	color: #000080;
+	
+
+}
+
+nav a:hover {
+	text-decoration: none;
+	color: white;
+
+}
+
+nav ul li:active {
+	background-color: blue;
+	
+
+}
+
+nav nav-bar nav{
+	border-collapse: collapse;
+}
+
+
+
+#footer {
+	font-weight: bold;
+	font-size: 15px;
+	color: red;
+	
+
+}
+
+nav a {
+	padding: 50px;
+	color: white;
+	
+
+}
+
+
+
+nav {
+	margin: auto;
+	margin-top: 50px;
+	line-height: 40px;
+}
+
+.carousel-inner img {
+	margin: auto;
+	margin-top: 20px;
+}
+
+/*img {
+	width: 100%;
+}*/
+
+ul li {
+	list-style: none;
+}
+
+.h1_color {
+	color: #800080;
+}
+
+
+
