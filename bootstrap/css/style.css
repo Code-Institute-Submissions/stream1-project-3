@@ -1,31 +1,30 @@
 body {
-	background-image: url("https://www.armytimes.com/resizer/Midxz6cpTO3mz-yA82pg_xa38EY=/1200x0/filters:quality(100)/arc-anglerfish-arc2-prod-mco.s3.amazonaws.com/public/RGF26MAZRZBJRKLURGXJBIPTVQ.jpg");
+	/*background-image: url("http://adwallpapers.xyz/uploads/posts/5361-blue-gradient-background.jpg");*/
+	background: -webkit-radial-gradient(50% 50%, 70% 70%, #99CCFF, #3D5266);
+	height: 100%;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: #87CEEB; /*backup background if browser doesn't support other*/
 	color: white;
 	text-align: center;
-	font-family: roboto;
-}
-
-#container {
-	width: 800px;
-	margin: auto;
-	border-radius: 10px;
-	height: 45px;
-	text-align: center;
-	border-style: solid;
-	border-color: #F0F8FF;
+	font-family: roboto, sans-serif; 
+	font-size: 15px;
 
 
 }
 
 
-nav ul {
+
+
+/*nav ul {
 	list-style: none;
 	text-align: center;
 }
 
 nav ul li {
 	display: inline-block;
-}
+}*/
 
 nav ul li:hover {
 	background-color: #708090;
@@ -35,11 +34,7 @@ nav ul li:hover {
 
 }
 
-nav a:hover {
-	text-decoration: none;
-	color: white;
 
-}
 
 nav ul li:active {
 	background-color: blue;
@@ -47,51 +42,177 @@ nav ul li:active {
 
 }
 
-nav nav-bar nav{
-	border-collapse: collapse;
-}
 
-
-
-#footer {
-	font-weight: bold;
-	font-size: 15px;
-	color: red;
-	
-
-}
-
-nav a {
-	padding: 50px;
+.nav.navbar-nav li a {
 	color: white;
+}
+
+.navbar-header a.navbar-brand {
+	color: white;
+	font-family: Chalkduster, roboto;
+	font-size: 30px;
+}
+
+.navbar-header a.navbar-brand:hover {
+	background-color: #708090;
+	color: white;
+}
+
+.navbar-right {
+	position: absolute; right: 200px;
+}
+
+.navbar-brand {
+	position: absolute; left: 100px;
+}
+
+.footer {
+	font-weight: bold;
+	position: absolute; bottom: 0px; 
+	/*display: flex;
+	flex-flow: row;*/
 	
+	
+}
+
+.footer div {
+	position: relative;
+
 
 }
 
 
+.footer a {
+	color: white;
+}
 
-nav {
+
+
+
+
+
+.navbar-default {
 	margin: auto;
-	margin-top: 50px;
-	line-height: 40px;
+	padding-bottom: 50px;
+	background-color: transparent;
+	border-style: none;
+
+	
+	
 }
+
+
 
 .carousel-inner img {
 	margin: auto;
 	margin-top: 20px;
+	margin-bottom: 20px;
+	
+
 }
 
-/*img {
-	width: 100%;
-}*/
+.planets-carousel {
+	position: absolute; right: 10%;
 
-ul li {
-	list-style: none;
+}
+
+
+
+h1 {
+	margin-bottom: 40px;
 }
 
 .h1_color {
-	color: #800080;
+	/*color: #800080;*/
+	color: #191970;
 }
 
+.q1 {
+	padding-top: 20px;
+}
+
+img.galaxy_img {
+	display: inline-block;
+	position: relative;
+	
+}
+
+.galaxy-para {
+	margin-top: 50px;
+}
+
+#planets_pic {
+	position: absolute; left: 10%;
+}
+
+.container p {
+	text-align: left;
+}
+
+
+ul {
+	list-style: none;
+}
+
+.card {
+	text-align: left;
+	padding: 20px;
+	
+	
+}
+
+/* quiz section */
+#container_quiz {
+	width:50%;
+    margin: auto;
+    padding: 0 25px 40px 10px;
+    background-color: #F0F8FF;
+    border:4px solid #B0E0E6;
+    border-radius:5px;
+    color: black;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px #888;
+
+}
+
+
+
+.button a {
+	text-decoration: none;
+	color: black;
+}
+
+.button {
+    border:4px solid;
+    border-radius:5px;
+    width: 50px;
+    padding-left:5px;
+    padding-right: 5px;
+    position: relative;
+    float:right;
+    background-color: #DCDCDC;
+    color: black;
+    margin: 0 2px 0 2px;
+}
+
+.button.active {
+    background-color: #F8F8FF;
+    color: #525252;
+}
+
+button {
+	position: relative;
+	float: right;
+}
+
+#prev {
+    display:none;
+}
+
+#start {
+    /*display:none;*/
+    width: 90px;
+        
+}
 
 

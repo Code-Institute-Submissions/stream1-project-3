@@ -15,27 +15,70 @@
 	</style>
 </head>
 <body>
-	<nav>
-		<ul>
-			
-				<div id="container">
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="home2.html">Mad about Space</a>
+    </div>
 
-					<li><a href="home2.html">About Us</a></li>
-					<li><a href="solar_system.html">Solar System</a></li>
-					<li><a href="stars.html">Stars</a></li>
-					<li><a href="planets.html">Planets</a></li>
-					<li><a href="quiz.html"></a>Quiz</li>
-				</div>
-			
-		</ul>
-		
-	</nav>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="home2.html">Home</a></li>
+        <li><a href="solar_system.html">Galaxies</a></li>
+        <li class="active"><a href="stars.html">Stars<span class="sr-only">(current)</span></a></li>
+        <li><a href="planets.html">Planets</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+      </ul>
+      
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
 	
 	<h1>Now it's time to learn about the stars</h1>
 
-	<h2>The way stars are formed</h2>
-		<p>Stars are formed inside gas and dust, which is also known as molecular clouds. They are extremely cold which allows the gases to cause the atoms to bind together. The life cycle of a star depends on its size, with the Sun is the closest star to Earth.</p>
+
+	<div class="container">
+		<h2>The way stars are formed</h2>
+		<!--<div class="row">-->
+			<div class="col-sm-12">
+				<p>The Sun is the closest star to Earth. Stars are formed inside gas and dust, which is also known as molecular clouds. They are extremely cold which allows the gases to cause the atoms to bind together. The life cycle of a star depends on its size.</p>
+
+				<p>There are also approximately 200 billion stars in the universe, but the exact number isn't known.</p>
+			</div>
+		<!--</div>-->
+	</div>
+
+	<div class="row card">
+		<div class="col-sm-4">
+			<h2>Red giant star</h2>
+				<p>After a star has consumed its hydrogen fuel, there is now no longer an outward pressure to offset the inward pressure holding it together. This can cause the size of the star to increase significantly. Once it completely runs out of fuel and theis process has reached the end of its cycle the star will become a white dwarf star.</p>
+			
+		</div>
+
+		<div class="col-sm-4">
+			<h2>White dwarf star</h2>
+				<p>A white dwarf star is formed when a star has fully run out of hydrogen fuel. This causes the star to collapse inward from its own gravity. A white dwarf star will now start cooling down, which actually takes billions of years.</p>
+		</div>
+
+		<div class="col-sm-4">
+			<h2>Red dwarf star</h2>
+				<p>This is the most common type of star. This type of star is able to keep its hydrogen fuel, allowing them to keep burning for much longer when compared to other stars. Some can even have a mass that is half as much as the Sun, yet be considerably smaller in size.</p>
+			
+		</div>
+		
+	</div>
+
+
 
 		
 
@@ -59,24 +102,24 @@
 	  <!-- Wrapper for slides -->
 	  <div class="carousel-inner" role="listbox">
 	    <div class="item active">
-	      <img src="http://blogs.discovermagazine.com/crux/files/2017/06/universe.jpg" alt="Universe" height="500" width="500">
+	      <img src="https://www.universetoday.com/wp-content/uploads/2009/11/opo9604b-e1432589560732-1024x739.jpg" alt="Red Giant Star" height="500" width="500">
 	      <div class="carousel-caption">
-	        <p>The Universe</p>
+	        <p>Red Giant Star</p>
 	      </div>
 	    </div>
 	    <div class="item">
-	      <img src="https://www.capitalfm.co.ke/lifestyle/files/2015/04/Galaxy.jpg" alt="Galaxy" height="500" width="500">
+	      <img src="https://cpb-us-e1.wpmucdn.com/istianjinelearning.org/dist/e/203/files/2015/02/white-dwarf-twzfsf.jpg" alt="White Dwarf Star" height="500" width="500">
 	      <div class="carousel-caption">
-	        <p>Another of the universe</p>
+	        <p>White Dwarf Star</p>
 	      </div>
 	    </div>
 	    <div class="item">
-	    	<img src="http://s.newsweek.com/sites/www.newsweek.com/files/styles/embed-lg/public/2018/01/02/12supermoon09.jpg" alt="The moon" height="500" width="500">
+	    	<img src="https://scitechdaily.com/images/Swift-Mission-Observes-Mega-Flares-from-a-Mini-Star.jpg" alt="Red Dwarf Star" height="500" width="500">
 	    	<div class="carousel-caption">
-	    		<p>The moon</p>
+	    		<p>Red Dwarf Star</p>
 	    	</div>
 	    </div>
-	    ...
+	    
 	  </div>
 
 	  <!-- Controls -->
@@ -90,7 +133,12 @@
 	  </a>
 	</div>
 
-	<a href="mailto:sakhtar547@hotmail.com?subject=Question from your solar system site" id="footer">Email us</a>
+	
+	<footer class="footer">
+		<div>
+			<a href="mailto:sakhtar547@hotmail.com?subject=Question from your solar system site">Contact us</a>
+		</div>
+	</footer>
 	
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
 <script src='bootstrap/js/bootstrap.min.js'></script> 
