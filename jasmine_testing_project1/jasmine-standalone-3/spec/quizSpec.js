@@ -13,13 +13,15 @@ describe("Quiz", function() {
 			quiz.add(1);
 			quiz.add(0);
 			quiz.add(1);
-			expect(Quiz.value().toBe(3));
+			expect(quiz.value).toBe(3);
 		});
+	});
 
-	it("throws error message if no option is chosen", function() {
-		spyOn(window, "alert");
-		expect(window.alert).toHaveBeenCalledWith("Oops don't forget to choose an answer");
+
+	describe("Question function", function(){
+		it('should return "This is question 1" for question index 0', function(){
+			var questionNum = quiz.question(0);
+			expect(questionNum).toBe("This is question 1");
 		});
-
 	});
 });

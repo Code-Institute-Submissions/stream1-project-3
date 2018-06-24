@@ -14,6 +14,7 @@ HTML
 CSS
 Bootstrap
 Javascript 
+Jasmine Testing
 
 ## Testing techniques 
 
