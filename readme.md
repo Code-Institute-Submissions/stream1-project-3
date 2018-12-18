@@ -27,6 +27,15 @@ The website http://jshint.com and Jasmine were both used in order to check for a
 
 ### Manual testing
 
-The following chrome plug in was used to test the CSS and HTML to ensure the site was responsive across various types of media.: https://chrome.google.com/webstore/detail/responsive-web-design-tes/bdpelkpfhjfiacjeobkhlkkgaphbobea.
+The following chrome plug in was used to test the CSS and HTML to ensure the site was responsive across various types of media and operating systems.: https://chrome.google.com/webstore/detail/responsive-web-design-tes/bdpelkpfhjfiacjeobkhlkkgaphbobea.
 
 An issue with the background image had occured when attempting to open the site on a device that used Google Chrome. After manual testing I had then worked on resolving the issue by changing the code that determined the way the background was stretched over the computer window. 
+
+## Deployment
+
+Github has been used to deploy this website, however there have been some issues. The issue that arises regards my commits, whereby each commit I have done is being registered under the username “Usernamesername” due to a bug when starting the project. I decided against starting a new repo in order to maintain my commit history. Due to this error, the repo project page appears to state there are two contributors, however I am the only contributor to this project.
+
+
+## Acknowledgements 
+
+The Javascript quiz code was influenced and modelled around the code used in a Javascript tutorial, however it has been altered in certain sections in order to manipulate the way the quiz is executed, and to make the code easier to read.
