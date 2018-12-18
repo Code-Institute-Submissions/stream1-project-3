@@ -7,15 +7,13 @@
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/style.css">
 	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-	
 	<style type="text/css">
 		
-		
-
 	</style>
 </head>
 <body>
 	<div class="body">
+		<!-- Bootstrap navbar -->
 		<nav class="navbar navbar-inverse">
 		 	<div class="container-fluid">
 		  	<!-- Brand and toggle grouped - better mobile display -->
@@ -26,12 +24,12 @@
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span> 
 			      </button>
-			      <a class="navbar-brand" href="home2.html">Mad about Space</a>
+			      <a class="navbar-brand" href="index.html">Mad about Space</a>
 			    </div>
 			    <!-- Collect nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse navbar-right" id="myNavbar">
 			      <ul class="nav navbar-nav">
-			        <li><a href="home2.html">Home</a></li>
+			        <li><a href="index.html">Home</a></li>
 					<li class="active"><a href="solar_system.html">Galaxies<span class="sr-only">(current)</span></a></li>
 					<li><a href="stars.html">Stars</a></li>
 					<li><a href="planets.html">Planets</a></li>
@@ -41,45 +39,50 @@
 			</div> <!-- /.container fluid -->
 		</nav> <!-- /. navbar navbar-inverse -->
 	
-	
-
-		<h1>Different types of galaxies</h1>
-
-		<div class="container">
-			<h2>How a galaxy is formed</h2>
-			<p>Galaxies are mainly composed of dust, stars and gas. No one knows exactly how many galaxies exist. Galaxies themselves can be split into three types: irregular galaxies, spiral galaxies and elliptical galaxies.</p>
+		<div class="row">
+			<div class="col-sm-12">
+				<h1>Different types of galaxies</h1>
+			</div>
 		</div>
 
-		
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h2>How a galaxy is formed</h2>
+					<p>Galaxies are mainly composed of dust, stars and gas. No one knows exactly how many galaxies exist. Galaxies themselves can be split into three types: irregular galaxies, spiral galaxies and elliptical galaxies.</p>
+				</div>
+			</div>
+		</div>
 
-		<div class="row indent">
-			<div class="col-sm-4 galaxy-para">
-				<h3><strong>Irregular galaxies</strong></h3>
-				<p>This type of galaxy appears misshapen and generally lacks form. This is due to the fact they are influenced by the gravitational pull of other galaxies close by.</p>
-				<img class="galaxy_img" src="images/irregular galaxy.jpg" alt="Irregular galaxy" height="250px" width="250">
-			</div>
-			<div class="col-sm-4 galaxy-para">
-				<h3><strong>Spiral galaxies</strong></h3>
-				<p>This includes our own galaxy, the Milky Way. This type has a bulging centre with spiral arms and a flat disk. This disk includes stars, dust, gas and planets which all rotate around a specific galactic centre.</p>
-				<img class="galaxy_img" src="images/spiral galaxy.jpg" alt="Spiral galaxy" height="250" width="250">
-			</div>
-			<div class="col-sm-4 galaxy-para">
-				<h3><strong>Elliptical galaxies</strong></h3>
-				<p>This type is round and has a longer stretch across one axis. The extent of this stretch can be so great, it may have a full oblong like appearance. Elliptical galaxies also have many old stars, but don’t appear to have much dust or many other aspects seen in a spiral galaxy.</p>
-				<img class="galaxy_img" src="images/elliptical galaxy.jpg" alt="Elliptical galaxy" height="250" width="250">
-			</div>
-		</div> <!-- /.row -->
-	</div> <!-- /.body -->
+		<div class="container">
+			<div class="row flex_container">
+				<div class="col-xs-12 col-sm-6 col-md-4 flex box">
+					<h2>Irregular Galaxies</h2>
+					<p class="change_color">This type of galaxy appears misshapen and generally lacks form. This is due to the fact they are influenced by the gravitational pull of other galaxies close by.</p>
+					<img class="image_position image_border" src="images/irregular galaxy.jpg" alt="Irregular galaxy" height="250px" width="250">
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4 flex box">
+					<h2>Spiral Galaxies</h2>
+					<p class="change_color">This includes our own galaxy, the Milky Way. This type has a bulging centre with spiral arms and a flat disk. This disk includes stars, dust, gas and planets which all rotate around a specific galactic centre.</p>
+					<img class="image_position image_border" src="images/spiral galaxy.jpg" alt="Spiral galaxy" height="250" width="250">
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-4 flex box">
+					<h2>Elliptical Galaxies</h2>
+					<p class="change_color">This type is round and has a longer stretch across one axis. The extent of this stretch can be so great, it may have a full oblong like appearance. Elliptical galaxies also have many old stars, but don’t appear to have much dust or many other aspects seen in a spiral galaxy.</p>
+					<img class="image_position image_border" src="images/elliptical galaxy.jpg" alt="Elliptical galaxy" height="250" width="250">
+				</div>
+			</div> <!-- closing row -->
+		</div> <!-- closing container class -->
+	</div> <!-- closing body -->
 	
 
 	<footer class="footer">
 		<div class="footerStick">
-			<a href="mailto:sakhtar547@hotmail.com?subject=Question from your solar system site">Contact us</a>
+			<a href="mailto:sakhtar547@hotmail.com?subject=Question about the website">Contact us</a>
 		</div>
 	</footer>
-	
-	<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
-	<script src='bootstrap/js/bootstrap.min.js'></script> 
-	<script type="text/javascript" src="js/script.js"></script>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+<script src='bootstrap/js/bootstrap.min.js'></script> 
+<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
