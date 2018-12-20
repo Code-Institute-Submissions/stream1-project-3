@@ -1,15 +1,22 @@
 $(document).ready(function() {
 
 
-	$("h1").mouseenter(function() {
-		$("h1").addClass("h1_color");
+	$(".change_color").mouseenter(function() {
+		$(this).addClass("font_color");
 	});
 
-	$("h1").mouseleave(function() {
-		$("h1").removeClass("h1_color");
-
+	$(".change_color").mouseleave(function() {
+		$(this).removeClass("font_color");
 	});
 
+
+	$(".index_pics").mouseenter(function() {
+		$(this).addClass("pic_bigger");
+	});
+
+	$(".index_pics").mouseleave(function() {
+		$(this).removeClass("pic_bigger");
+	});
 	
 });
 
