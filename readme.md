@@ -35,7 +35,7 @@ An issue with the background image had occured when attempting to open the site 
 
 Github has been used to deploy this website, however there have been some issues. The issue that arises regards my commits, whereby each commit I have done is being registered under the username “Usernamesername” due to a bug when starting the project. With the help of my mentor as well as using the Slack community, I attempted to resolve this issue, however I was unable to do so. My mentor and I had decided against starting a new project repository in order to maintain my commit history. Due to this error, the project repository page appears to state that there are two contributors, however I am the only contributor to this project.
 
-![github issues](documents/github-username-issues.png)
+![github issues](github-username-issues.png)
 
 
 ## Acknowledgements 
