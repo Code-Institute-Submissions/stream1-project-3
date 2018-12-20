@@ -31,9 +31,9 @@ The following chrome plug in was used to test the CSS and HTML to ensure the sit
 
 An issue with the background image had occured when attempting to open the site on a device that used Google Chrome. After manual testing I had then worked on resolving the issue by changing the code that determined the way the background was stretched over the computer window. 
 
-## Deployment
+## Deployment and issues that had arisen 
 
-Github has been used to deploy this website, however there have been some issues. The issue that arises regards my commits, whereby each commit I have done is being registered under the username “Usernamesername” due to a bug when starting the project. I decided against starting a new repo in order to maintain my commit history. Due to this error, the repo project page appears to state there are two contributors, however I am the only contributor to this project.
+Github has been used to deploy this website, however there have been some issues. The issue that arises regards my commits, whereby each commit I have done is being registered under the username “Usernamesername” due to a bug when starting the project. With the help of my mentor as well as using the Slack community, I attempted to resolve this issue, however I was unable to do so. My mentor and I had decided against starting a new project repository in order to maintain my commit history. Due to this error, the project repository page appears to state that there are two contributors, however I am the only contributor to this project.
 
 
 ## Acknowledgements 
