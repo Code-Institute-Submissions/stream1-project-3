@@ -44,6 +44,8 @@ The following chrome plug in was used to test the CSS and HTML to ensure the sit
 
 An issue concerning the images had occurred, whereby they weren’t fully responding to changed screen sizes. In order to resolve this I changed the container they were in, which would force the images to drop down below one another once the screen size was reduced.  
 
+The quiz was also manually tested, whereby I ensured the user wasn’t allowed to go on to the next question without first picking an answer to the current question. If the user did try to continue without first picking an answer, an error message would flash on the users screen.
+
 ## Deployment and issues that had arisen 
 
 Github has been used to deploy this website, however there have been some issues. The issue that arises regards my commits, whereby each commit I have done is being registered under the username “Usernamesername” due to a bug when starting the project. With the help of my mentor as well as using the Slack community, I attempted to resolve this issue, however I was unable to do so. My mentor and I had decided against starting a new project repository in order to maintain my commit history. Due to this error, the project repository page appears to state that there are two contributors, however I am the only contributor to this project.
