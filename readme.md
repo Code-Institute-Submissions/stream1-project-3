@@ -4,6 +4,8 @@
 
 This is my stream 1 project, which involves building a website using methods learnt in the stream 1 section of the programme. I’ve chosen to base my website around facts about space because it is a personal interest of mine. 
 
+There was an error during the deployment phase that has consequently affected the username displayed during my commits to this project; this has been specified below in the deployment section.  
+
 ## UX and UI
 
 During the UX and UI planning process I considered who the website users would be, what they wanted to achieve, and how my website would allow them to do so. Therefore my primary goal was to build a website that offered easy manoeuvrability to the user, whilst also maintaining a pleasurable viewing experience.
@@ -49,6 +51,8 @@ The quiz was also manually tested, whereby I ensured the user wasn’t allowed t
 ## Deployment and issues that had arisen 
 
 Github has been used to deploy this website, however there have been some issues. The issue that arises regards my commits, whereby each commit I have done is being registered under the username “Usernamesername” due to a bug when starting the project. With the help of my mentor as well as using the Slack community, I attempted to resolve this issue, however I was unable to do so. My mentor and I had decided against starting a new project repository in order to maintain my commit history. Due to this error, the project repository page appears to state that there are two contributors, however I am the only contributor to this project.
+
+The image below details the message that is shown when committing new code, and also ensures that these are indeed my own commits. 
 
 ![github issues](screenshots/github-username-issues.png)
 
